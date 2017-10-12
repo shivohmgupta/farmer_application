@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color:lightblue;
+}
+.table1{
+	
+	padding:20px 350px 20px 350px;
+	
+}
+table-striped {
+	
+	
+	width: 50%;
+	height:50%;
+}
+.result{
+	padding:20px 10px 20px 10px;
+}
+table,td  {
+	
+	position: center;
+	border: 5px solid black;
+	border-collapse : collapse;
+	padding : 10px 50px 10px 100px;
+	border-radius: 15px;
+	text-align: left;
+	
+}
+
+th{
+	background-color:#4CAF50;
+	color:white;
+	position: center;
+	border: 5px solid black;
+	border-collapse : collapse;
+	padding : 10px 50px 10px 100px;
+	border-radius: 15px;
+	text-align: left;
+}
+
+
+
+tr:nth-child(odd)
+{
+	background-color: grey;
+	color: white;
+	size:10px;
+}
+
+tr:hover{
+	
+	background-color: lightblue;
+}
